@@ -7,12 +7,6 @@ arr.forEach(function(element) {
   console.log("element is : " + element);
 });
 
-<<<<<<< HEAD
-arr.every(function(element) {
-  console.log("element : " + element);
-});
-=======
-function add(a, b, callBack) {
-  callBack(a + b);
-}
->>>>>>> branchB
+
+
+console.log('hello');
