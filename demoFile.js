@@ -7,7 +7,6 @@ arr.forEach(function(element) {
   console.log("element is : " + element);
 });
 
-<<<<<<< HEAD
 arr.every(function(element) {
   console.log("element : " + element);
 });
@@ -15,8 +14,27 @@ arr.every(function(element) {
 function add(a, b, callback) {
   callback(a, b);
 }
-=======
 
+function calculateGpa(number) {
+  var gpa;
+  if (number >= 80) {
+    gpa = "A+";
+  } else if (number >= 70) {
+    gpa = "A";
+  } else if (number >= 60) {
+    gpa = "A-";
+  } else if (number >= 50) {
+    gpa = "B";
+  } else if (number >= 40) {
+    gpa = "C";
+  } else {
+    gpa = "Failed";
+  }
 
-console.log('hello');
->>>>>>> branchA
+  return function(name) {
+    return "Hello " + name + " , Your gpa is : " + gpa;
+  };
+}
+
+var gpaReference = calculateGpa(95);
+gpaReference("md yousuf");
