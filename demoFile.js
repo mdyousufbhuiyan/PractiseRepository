@@ -36,5 +36,5 @@ function calculateGpa(number) {
   };
 }
 
-var gpaReference = calculateGpa(95);
-gpaReference("md yousuf");
+var gpaReference = calculateGpa(35);
+console.log(gpaReference("md yousuf"));
