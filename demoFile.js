@@ -7,6 +7,7 @@ arr.forEach(function(element) {
   console.log("element is : " + element);
 });
 
+<<<<<<< HEAD
 arr.every(function(element) {
   console.log("element : " + element);
 });
@@ -14,3 +15,8 @@ arr.every(function(element) {
 function add(a, b, callback) {
   callback(a, b);
 }
+=======
+
+
+console.log('hello');
+>>>>>>> branchA
