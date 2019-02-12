@@ -15,8 +15,6 @@ function add(a, b, callback) {
   callback(a, b);
 }
 
-<<<<<<< HEAD
-=======
 function calculateGpa(number) {
   var gpa;
   if (number >= 80) {
@@ -32,15 +30,11 @@ function calculateGpa(number) {
   } else {
     gpa = "Failed";
   }
->>>>>>> branchB
 
   return function(name) {
     return "Hello " + name + " , Your gpa is : " + gpa;
   };
 }
 
-<<<<<<< HEAD
-=======
 var gpaReference = calculateGpa(35);
 console.log(gpaReference("md yousuf"));
->>>>>>> branchB
