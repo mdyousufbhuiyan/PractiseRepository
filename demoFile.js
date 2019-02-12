@@ -7,6 +7,13 @@ arr.forEach(function(element) {
   console.log("element is : " + element);
 });
 
+arr.every(function(element) {
+  console.log("element : " + element);
+});
+
+function add(a, b, callback) {
+  callback(a, b);
+}
 
 
-console.log('hello');
+
