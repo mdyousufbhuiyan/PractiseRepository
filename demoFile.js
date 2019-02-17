@@ -36,7 +36,6 @@ function calculateGpa(number) {
   };
 }
 
-<<<<<<< HEAD
 
 
 var tempFun = function() {
@@ -48,7 +47,5 @@ var tempFun = function() {
 
 
 tempFun(); 
-=======
->>>>>>> branchA
 var gpaReference = calculateGpa(35);
-console.log(gpaReference("md yousuf"));
+console.log(gpaReference("md yousuf bhuiyan"));
