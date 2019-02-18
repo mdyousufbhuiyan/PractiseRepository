@@ -36,16 +36,14 @@ function calculateGpa(number) {
   };
 }
 
-
-
 var tempFun = function() {
   var a = 25;
   var b = "5";
   console.log(a + b);
 };
 
-
-
-tempFun(); 
+tempFun();
 var gpaReference = calculateGpa(35);
 console.log(gpaReference("md yousuf bhuiyan"));
+
+
